@@ -1,5 +1,6 @@
 import express  from "express";
-import livros from "../models/Livro.js";
+//import livros from "../models/Livro.js";
+import livros from "./livrosRoutes.js";
 
 const routes = (app) => {
     app.route('/').get((req, res) =>{

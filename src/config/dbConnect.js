@@ -5,5 +5,3 @@ mongoose.connect("mongodb+srv://alura:fmtSCNoQYftNx5us@alura.yea55fb.mongodb.net
 let db = mongoose.connection;
 
 export default db;
-
-                    
